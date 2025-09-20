@@ -36,20 +36,10 @@ Make sure you have Python 3.8+ installed with the required packages.
 
 #### Installation
 
-1. **Install dependencies:**
+**Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-
-2. **Set up environment variables:**
-   ```bash
-   cp config_template.env .env
-   ```
-   
-   Then edit `.env` and add your API keys:
-   - `ANTHROPIC_API_KEY`: Your Anthropic Claude API key
-   - `OPENAI_API_KEY`: Your OpenAI API key (if needed)
-
 ### Running the Code
 
 1. **MMLU Evaluation:**
